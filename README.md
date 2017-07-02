@@ -1,10 +1,6 @@
-# Automation-Testing
-In software testing, test automation is the use of special software (separate from the software being tested) to control the execution of tests and the comparison of actual outcomes with predicted outcomes.
-
 # Why the test automation
-Vastly Increases Your Test Coverage. Automated software testing can increase the depth and scope of tests to help improve software quality. Lengthy tests that are often avoided during manual testing can be run unattended. They can even be run on multiple computers with different configurations.
 
-# Build a React Test Environment
+Vastly Increases Your Test Coverage. Automated software testing can increase the depth and scope of tests to help improve software quality. Lengthy tests that are often avoided during manual testing can be run unattended. They can even be run on multiple computers with different configurations.
 
 # Selenium Automation Testing
 
@@ -19,13 +15,14 @@ Java / Python / Ruby / C# / Go / JavaScript
 Node.js required: https://nodejs.org/en/
 
 # Installation 
+
 Selenium may be installed via npm 
 
 $ npm install selenium-webdriver
 
 (Note: Mozilla's geckodriver is only required for Firefox 47+. Everything you need for Firefox 38 - 46 is included with this package. )
 
-Browsers and Drivers:
+Browsers and Drivers: 
 
 Chrome -> chromedriver.exe
 Internet Explorer -> IEDriverServer.exe
@@ -64,6 +61,7 @@ driver.quit()
 // end - test.js
 
 # Run
+
 $ node test.js
 
 # References
