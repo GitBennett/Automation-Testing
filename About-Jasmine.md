@@ -21,8 +21,10 @@ Assert
 Suite (测试集) - 使用全局的 Jasmine 函数 describe(string, function) 来创建，其中 string 为 Suite 的标题
 Spec (测试用例) - 使用全局的 Jasmine 函数 it(string, function) 来创建，其中 string 为 Spec 的标题
 
-  beforeEach() ： 在describe函数中每个Spec执行之前执行。
-  afterEach()  ： 在describe函数中每个Spec数执行之后执行。
+Setup / Teardown -> 为了在复杂的测试用例中更加便于组装和拆卸，Jasmine提供了四个函数：
+
+  beforeEach() ： 在describe函数中每个Spec执行之前执行一次。
+  afterEach()  ： 在describe函数中每个Spec数执行之后执行一次。
   beforeAll()  ： 在describe函数中所有的Specs执行之前执行，但只执行一次，在Sepc之间并不会被执行。
   afterAll()   ： 在describe函数中所有的Specs执行之后执行，但只执行一次，在Sepc之间并不会被执行。
 
@@ -80,7 +82,7 @@ Mocking Timeout -> jasmine.clock().tick(nTime)
 
 全局匹配 -> jasmine.any, jasmine.anything, jasmine.objectContaining, jasmine.arrayContaining
 
-# 
+# 自定义Matcher
 
-
+高级功能的定制。
 
