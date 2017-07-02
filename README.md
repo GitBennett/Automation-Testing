@@ -6,3 +6,8 @@ Vastly Increases Your Test Coverage. Automated software testing can increase the
 
 # Build a React Test Environment
 
+# Selenium Automation Testing
+
+<p style='background: gray'>npm install selenium-webdriver --save-dev</p>
+
+
