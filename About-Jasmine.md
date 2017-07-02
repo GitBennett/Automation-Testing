@@ -1,10 +1,10 @@
 # Jasmine 单元测试
 不依赖任何其他JS框架，也不需要对DOM操作
-<br />
+
 基于行为驱动开发 (Behavior-Driven Development) 的测试框架
-<br />
+
 可运行于Node.js
-<br />
+
 多终端支持
 
 # 理解BDD和TDD的区别
@@ -12,9 +12,9 @@ BDD 与 TDD (Test Driven Development) 的主要区别是，使得非程序人员
 
 # 理解AAA
 Arrange
-<br />
+
 Act
-<br />
+
 Assert
 
 # 基础语法
