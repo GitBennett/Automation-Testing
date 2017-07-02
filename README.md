@@ -40,6 +40,8 @@ You will need to download additional components to work with each of the major b
 $ cd node-app
 $ cat > test.js
 
+// start - test.js
+
 var webdriver = require('selenium-webdriver')
 var by = webdriver.By
 var until = webdriver.until
@@ -47,7 +49,11 @@ var until = webdriver.until
 var driver = new webdriver
    .Builder()
    .withCapabilities(webdriver.Capabilities.chrome())
-   .build();
+   .build()
+// var driver = new webdriver
+//   .Builder()
+//   .forBrowser('firefox')
+//   .build()
  
 driver.get('http://www.google.com')
 driver.findElement(webdriver.By.name('q')).sendKeys('simple programmer')
@@ -55,8 +61,15 @@ driver.findElement(webdriver.By.name('btnG')).click()
 driver.wait(until.titleIs('webdriver-google-search'))
 driver.quit()
 
+// end - test.js
+
 # Run
 $ node test.js
+
+# References
+
+https://seleniumhq.github.io/selenium/docs
+
 
 
 
