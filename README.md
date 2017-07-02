@@ -83,6 +83,7 @@ $ node test.js
 # References
 
 https://seleniumhq.github.io/selenium/docs/api/javascript/index.html
+https://www.ibm.com/developerworks/library/a-automating-ria/index.html
 
 
 
