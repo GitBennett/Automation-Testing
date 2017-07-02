@@ -1,16 +1,16 @@
-# Why the test automation
+## Why the test automation
 
 Vastly Increases Your Test Coverage. Automated software testing can increase the depth and scope of tests to help improve software quality. Lengthy tests that are often avoided during manual testing can be run unattended. They can even be run on multiple computers with different configurations.
 
-# Selenium Automation Testing
+## Selenium Automation Testing
 
 Selenium is a browser automation library, most often used for testing web applications. Selenium may be used for any task that requires automating interaction with the browser. 
 
-# Support Programming Languages
+## Support Programming Languages
 
-Java / Python / Ruby / C# / Go / JavaScript
+Java / Python / Ruby / C# / Go / `JavaScript`
 
-# How to start
+## How to start
 
 Node.js required: https://nodejs.org/en/
 
@@ -43,7 +43,7 @@ $ cd node-app
 $ cat > test.js
 
 # Sample Code
-
+```js
 var webdriver = require('selenium-webdriver')
 
 var by = webdriver.By
@@ -75,12 +75,13 @@ driver.findElement(webdriver.By.name('btnG')).click()
 driver.wait(until.titleIs('webdriver-google-search'))
 
 driver.quit()
+```
 
-# Run
+## Run
 
 $ node test.js
 
-# References
+## References
 
 https://seleniumhq.github.io/selenium/docs/api/javascript/index.html
 
