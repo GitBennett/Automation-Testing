@@ -84,6 +84,7 @@ $ node test.js
 
 https://seleniumhq.github.io/selenium/docs/api/javascript/index.html
 https://www.ibm.com/developerworks/library/a-automating-ria/index.html
+https://segmentfault.com/a/1190000007477347 (Airbnb 的 React 测试框架 -> enzyme)
 
 
 
