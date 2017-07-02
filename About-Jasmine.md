@@ -1,5 +1,6 @@
 # Jasmine 单元测试
 不依赖任何其他JS框架，也不需要对DOM操作
+<br />
 基于行为驱动开发 (Behavior-Driven Development) 的测试框架
 可运行于Node.js
 多终端支持
