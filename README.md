@@ -16,7 +16,7 @@ Node.js required: https://nodejs.org/en/
 
 Selenium may be installed via npm 
 
-$ npm install selenium-webdriver
+`$ npm install selenium-webdriver`
 
 (Note: Mozilla's geckodriver is only required for Firefox 47+. Everything you need for Firefox 38 - 46 is included with this package. )
 
@@ -38,11 +38,12 @@ Safari -> SafariDriver.safariextz
 
 You will need to download additional components to work with each of the major browsers. The drivers for Chrome, Firefox, PhantomJS, Opera, IE and Edge web browsers are all standalone executables that should be placed on your system PATH. The SafariDriverBrowser extension should be installed in your browser before using Selenium. Recommend that disabling the extension when using the browser without Selenium or installing the extension in a profile only used for testing. 
 
-$ cd node-app
+`$ cd node-app`
 
-$ cat > test.js
+`$ cat > test.js`
 
 # Sample Code
+
 ```js
 var webdriver = require('selenium-webdriver')
 
@@ -79,7 +80,7 @@ driver.quit()
 
 ## Run
 
-$ node test.js
+`$ node test.js`
 
 ## References
 
