@@ -11,11 +11,11 @@
 BDD 与 TDD (Test Driven Development) 的主要区别是，使得非程序人员也能参与到测试用例的编写中来，大大降低了客户、用户、项目管理者与开发者之间来回翻译的成本。所以BDD更加注重业务需求而不是技术
 
 # 理解AAA
-Arrange
+Arrange -> 输入数据组装
 
-Act
+Act -> 模拟操作
 
-Assert
+Assert -> 验证输出
 
 # 基础语法
 Suite (测试集) - 使用全局的 Jasmine 函数 describe(string, function) 来创建，其中 string 为 Suite 的标题
