@@ -82,7 +82,7 @@ $ node test.js
 
 # References
 
-https://seleniumhq.github.io/selenium/docs
+https://seleniumhq.github.io/selenium/docs/api/javascript/index.html
 
 
 
