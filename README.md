@@ -14,8 +14,6 @@ Java / Python / Ruby / C# / Go / JavaScript
 
 Node.js required: https://nodejs.org/en/
 
-# Installation 
-
 Selenium may be installed via npm 
 
 $ npm install selenium-webdriver
