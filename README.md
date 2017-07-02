@@ -23,40 +23,58 @@ $ npm install selenium-webdriver
 Browsers and Drivers: 
 
 Chrome -> chromedriver.exe
+
 Internet Explorer -> IEDriverServer.exe
+
 Edge -> MicrosoftWebDriver.msi
+
 Firefox 47+ -> geckodriver.exe
+
 PhantomJS -> phantomjs.exe
+
 Opera -> operadriver.exe
+
 Safari -> SafariDriver.safariextz
 
 You will need to download additional components to work with each of the major browsers. The drivers for Chrome, Firefox, PhantomJS, Opera, IE and Edge web browsers are all standalone executables that should be placed on your system PATH. The SafariDriverBrowser extension should be installed in your browser before using Selenium. Recommend that disabling the extension when using the browser without Selenium or installing the extension in a profile only used for testing. 
 
 $ cd node-app
+
 $ cat > test.js
 
-// start - test.js
+# Sample Code
 
 var webdriver = require('selenium-webdriver')
+
 var by = webdriver.By
+
 var until = webdriver.until
 
 var driver = new webdriver
+
    .Builder()
+   
    .withCapabilities(webdriver.Capabilities.chrome())
+   
    .build()
+   
 // var driver = new webdriver
+
 //   .Builder()
+
 //   .forBrowser('firefox')
+
 //   .build()
  
 driver.get('http://www.google.com')
-driver.findElement(webdriver.By.name('q')).sendKeys('simple programmer')
-driver.findElement(webdriver.By.name('btnG')).click()
-driver.wait(until.titleIs('webdriver-google-search'))
-driver.quit()
 
-// end - test.js
+driver.findElement(webdriver.By.name('q')).sendKeys('simple programmer')
+
+driver.findElement(webdriver.By.name('btnG')).click()
+
+driver.wait(until.titleIs('webdriver-google-search'))
+
+driver.quit()
 
 # Run
 
