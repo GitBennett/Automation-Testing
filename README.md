@@ -4,7 +4,7 @@ Vastly Increases Your Test Coverage. Automated software testing can increase the
 
 # Selenium Automation Testing
 
-<b>Selenium</b> is a browser automation library, most often used for testing web applications. Selenium may be used for any task that requires automating interaction with the browser. 
+<b style="background-color: #eaeaea">Selenium</b> is a browser automation library, most often used for testing web applications. Selenium may be used for any task that requires automating interaction with the browser. 
 
 # Support Programming Languages
 
